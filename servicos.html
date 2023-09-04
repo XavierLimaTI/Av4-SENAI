@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLLUS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluif m-0 p-0 bg-white" id="pagina">
+        <header class="container-fluid m-2 p-2 height-80px" >
+            <nav class="navbar navbar-expand-sm bg-warning py-3">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item "><a href="#"><img src="img/hollus logo 50 50.png" height="100%" alt="Logo Hollus" id="logopequena"></a></li>
+                        <li class="navbar-item"><a href="index.html" class="nav-link text-white">Início</a></li>
+                        <li class="navbar-item"><a href="servicos.html" class="nav-link text-white">Serviços</a></li>
+                        <li class="navbar-item"><a href="SobreHollus.html" class="nav-link text-white">Sobre a HOLLUS</a></li>                       
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><button class="btn btn-outline text-white border-white" data-bs-toggle="modal" data-bs-target="#popUpLogin">Pré-inscrição grátis</button></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="modal" id="popUpLogin">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex justify-content-center">
+                            <h3>Pré-inscrição grátis</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="post">                                
+                                <div class="form-group my-3">
+                                    <label for="name">Nome</label>
+                                    <input type="text" placeholder="Digite seu nome e sobrenome" class="form-control">
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="email">Email</label>
+                                    <input type="email" placeholder="Digite seu email" class="form-control">
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="tel">Telefone</label>
+                                    <input type="number" placeholder="Digite seu telefone com DDD ex.: 61 998765432" class="form-control">
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="name">Terapia</label>
+                                    <input type="text" placeholder="Ex.: Acupuntura; yoga;..." class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-success">Enviar</button>
+                                <button type="reset" class="btn btn-warning">Resetar</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="slides" class="container-fluid text-warning display-1 d-flex justify-content-center text-upercase "><dt>HOLLUS</dt>
+                <dd>Conectando pessoas</dd></div>
+                <div class="spacesection" class="bg-white height: 45px"></div>
+            <div >
+            <div >
+                <div class="carousel slide my-3" id="demo" data-bs-ride="carousel">
+                    <!-- INDICADORES -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- SLIDER -->
+                    <div class="carousel-inner" style="height: 300px; overflow: hidden; d-flex flex-row">
+                        <h1 class="slides">Corpo</h1>
+                        <div class="carousel-item active">
+                            <img src="img/terapias/corpo/ayurveda.webp" alt="0" class="d-block" style="width: 20%; border-radius: 80%; float: right;">
+                            <div>
+                                <h3 class="slides">Ayurveda</h3>
+                                <p>A massagem Ayurveda é uma terapia tradicional indiana baseada nos princípios da medicina ayurvédica. Utiliza óleos medicados ou não para equilibrar os doshas (Vata, Pitta, Kapha), os princípios biológicos do corpo. Com movimentos como amassamento e pressão em pontos específicos do corpo, busca melhorar a circulação, liberar toxinas, aliviar tensões e restaurar equilíbrio. Além dos benefícios físicos, enfatiza a conexão mente-corpo e promove o bem-estar emocional.</p>                    
+                            </div>
+                        </div>                    
+                        <div class="carousel-item">
+                            <img src="img/terapias/corpo/pele-com-agulhas-de-acupuntura-amp_hero-1.webp" alt="1" class="d-block" style="width: 20%; border-radius: 80%; float: right;">
+                            <div>
+                                <h3 class="slides">Acupuntura</h3>
+                                <p>A acupuntura é uma terapia tradicional chinesa que envolve a aplicação de agulhas finas em pontos específicos do corpo para promover o equilíbrio energético. Baseia-se no conceito de Qi, a energia vital, e nos meridianos pelos quais essa energia flui. Ao estimular pontos específicos, a acupuntura visa aliviar dores, promover a cura e melhorar o bem-estar físico e emocional. Essa prática é usada para tratar uma variedade de condições, desde dores crônicas até ansiedade e problemas digestivos. A acupuntura é considerada segura quando realizada por um profissional qualificado e licenciado. Ela é frequentemente combinada com outras abordagens terapêuticas da medicina tradicional chinesa.</p>
+                            </div>
+                        </div>                    
+                        <div class="carousel-item">
+                            <img src="img/terapias/corpo/Terapia-das-Pedras-Quente.jpg" alt="2" class="d-block" style="width: 20%; border-radius: 80%; float: right;">
+                            <div>
+                                <h3 class="slides">Pedras quentes</h3>
+                                <p>A terapia das pedras quentes é uma técnica de massagem terapêutica que envolve o uso de pedras aquecidas colocadas sobre o corpo e também utilizadas para massagem. As pedras, geralmente de basalto, são aquecidas a uma temperatura confortável e colocadas em pontos específicos do corpo para relaxar os músculos e aliviar a tensão. O calor das pedras ajuda a melhorar a circulação sanguínea e a relaxar os tecidos profundos. O terapeuta também utiliza as pedras para realizar movimentos suaves de massagem, combinando o calor com a pressão controlada para proporcionar alívio e relaxamento. Essa terapia é conhecida por promover o relaxamento profundo, aliviar o estresse e melhorar a circulação. É importante procurar um terapeuta treinado para garantir uma experiência segura e eficaz.</p>
+                            </div>
+                        </div>                    
+                    </div>
+            </div>
+            <div>
+                <div class="carousel slide my-3" id="demo0" data-bs-ride="carousel">
+                    <!-- INDICADORES -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo0" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo0" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo0" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- SLIDER -->
+                    <div class="carousel-inner" style="height: 300px; overflow: hidden; d-flex flex-row">
+                        <h1 class="slides">Mente</h1>
+                        <div class="carousel-item active">
+                            <img src="img/terapias/mente/194102-hipnoterapia-conheca-o-tratamento-de-fobias-com-hipnose.webp" alt="0" class="d-block" style="width: 20%; border-radius: 80%; float: left;">
+                            <div>
+                                <h3 class="slides">Hipnoterapia</h3>
+                                <p>A hipnoterapia é uma abordagem terapêutica que utiliza a hipnose para ajudar indivíduos a alcançar mudanças positivas em suas emoções, comportamentos ou pensamentos. Durante uma sessão de hipnoterapia, um terapeuta induz um estado de relaxamento profundo e foco, conhecido como transe hipnótico, no qual a pessoa está mais receptiva a sugestões e insights. Esse estado pode ser usado para abordar uma variedade de questões, como ansiedade, fobias, dor crônica e hábitos indesejados. Durante o transe, o terapeuta pode fornecer sugestões positivas, explorar memórias ou trabalhar com o subconsciente para promover mudanças desejadas. A hipnoterapia é realizada por profissionais qualificados e éticos, e os resultados podem variar de pessoa para pessoa. É importante lembrar que o cliente mantém o controle durante a sessão e não é obrigado a fazer nada contra a sua vontade.</p>                    
+                            </div>
+                        </div>                    
+                        <div class="carousel-item">
+                            <img src="img/terapias/mente/Meditação-iStock.jpg" alt="1" class="d-block" style="width: 20%; border-radius: 80%; float: left;">
+                            <div>
+                                <h3 class="slides">Meditação</h3>
+                                <p>A meditação é uma prática mental que envolve concentrar a mente em um objeto, pensamento ou sensação, visando alcançar um estado de clareza mental e tranquilidade. Durante a meditação, o indivíduo direciona sua atenção para o presente, afastando-se das preocupações cotidianas. Isso pode ser feito através de técnicas como foco na respiração, visualização, repetição de mantras ou observação dos pensamentos sem julgamento. A meditação é associada a uma variedade de benefícios, incluindo redução do estresse, aumento do foco, melhoria do bem-estar emocional e promoção do relaxamento. A prática regular pode ajudar a cultivar uma maior consciência de si mesmo e do ambiente ao redor. A meditação é flexível e pode ser adaptada às preferências e necessidades individuais. A consistência é fundamental para colher os benefícios ao longo do tempo.</p>
+                            </div>
+                        </div>                    
+                        <div class="carousel-item">
+                            <img src="img/terapias/mente/jpgterapia-1024x791.jpg" alt="2" class="d-block" style="width: 20%; border-radius: 80%; float: left;">
+                            <div>
+                                <h3 class="slides">Chakras</h3>
+                                <p>Terapias esotéricas são práticas que exploram dimensões espirituais e energéticas, muitas vezes fora do escopo da ciência convencional. Isso inclui abordagens como a cura energética, leitura de tarô, astrologia e reiki. Essas terapias se baseiam em crenças de que existe uma conexão entre o corpo, a mente e o espírito, e que equilibrar as energias ou acessar informações esotéricas pode trazer cura e insights. Elas são procuradas por pessoas em busca de uma compreensão mais profunda de si mesmas e do universo que as cerca.</p>
+                            </div>
+                        </div>                    
+                    </div>
+            </div>
+            <div>
+                <div class="carousel slide my-3" id="demo1" data-bs-ride="carousel">
+                    <!-- INDICADORES -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- SLIDER -->
+                    <div class="carousel-inner" style="height: 300px; overflow: hidden; d-flex flex-row">
+                        <h1 class="slides">Esoterismo</h1>
+                        <div class="carousel-item active">
+                            <img src="img/terapias/esoterismo/reiki" alt="0" class="d-block" style="width: 20%; border-radius: 80%; float: right;">
+                            <div>
+                                <h3 class="slides">Reiki</h3>
+                                <p>O Reiki é uma terapia energética que se originou no Japão e se baseia na crença de que a energia vital universal flui através de nós e pode ser canalizada para promover equilíbrio e cura. Durante uma sessão de Reiki, o praticante utiliza suas mãos para direcionar essa energia para o receptor, que pode estar deitado ou sentado. O toque é leve ou mesmo sem contato físico, dependendo da abordagem do praticante. O Reiki é projetado para liberar bloqueios energéticos, aliviar o estresse e promover um estado de relaxamento profundo. A energia Reiki é considerada inteligente, fluindo para onde é mais necessária no corpo e na mente. Embora os efeitos variem, muitas pessoas relatam sensações de tranquilidade e bem-estar após uma sessão. O Reiki é uma prática complementar e não substitui tratamentos médicos convencionais, e é aconselhável procurar um praticante qualificado para uma experiência segura e eficaz.</p>                    
+                            </div>
+                        </div>                    
+                        <div class="carousel-item">
+                            <img src="img/terapias/esoterismo/radionica.jpeg" alt="1" class="d-block" style="width: 20%; border-radius: 80%; float: right;">
+                            <div>
+                                <h3 class="slides">Mesa Radiônica</h3>
+                                <p>A mesa radiônica é uma ferramenta utilizada em terapias energéticas e espirituais para identificar e tratar desequilíbrios em diferentes aspectos da vida. A mesa consiste em um desenho com símbolos, números e gráficos que representam diversos campos de energia e influências. Um praticante de mesa radiônica usa pêndulos, cristais ou outras ferramentas para interagir com a mesa, identificar questões energéticas e aplicar correções. A prática visa harmonizar energia, limpar bloqueios e promover a cura em níveis físicos, emocionais e espirituais. As sessões de mesa radiônica podem abordar questões como saúde, relacionamentos, finanças e espiritualidade. É importante escolher um praticante experiente e ético, já que a eficácia da mesa radiônica está relacionada à habilidade e intenção do terapeuta. É uma abordagem que se baseia em princípios energéticos e espirituais, portanto, é necessário compreender suas bases antes de buscar essa terapia.</p>
+                            </div>
+                        </div>                    
+                        <div class="carousel-item">
+                            <img src="img/terapias/esoterismo/cristal-druso-ametista-gemas-magicas-para-pratica-espiritual-esoterica-cura-feiticaria-reiki-terapia-ilustracao-generativa-de-ia_94255-6612.avif" alt="2" class="d-block" style="width: 20%; border-radius: 80%; float: right;">
+                            <div>
+                                <h3 class="slides">Cristaloterapia</h3>
+                                <p>A cristaloterapia é uma prática terapêutica que envolve o uso de cristais e pedras preciosas para promover o equilíbrio energético e o bem-estar. Cada tipo de cristal é acreditado ter propriedades energéticas únicas que podem influenciar aspectos físicos, emocionais e espirituais. Durante uma sessão de cristaloterapia, os cristais são colocados sobre o corpo ou em torno do espaço, enquanto o cliente relaxa ou medita. Além disso, os cristais podem ser usados para criar elixires ou amuletos. A terapia visa limpar bloqueios, restaurar a energia vital e promover a cura. As cores, formas e composições químicas dos cristais são consideradas relevantes para suas propriedades terapêuticas. A cristaloterapia é uma abordagem holística que pode ser usada em conjunto com outras práticas terapêuticas, mas é importante procurar orientação de um profissional experiente para maximizar os benefícios e garantir o uso seguro dos cristais.</p>
+                            </div>
+                        </div>                    
+                    </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+
+    
+</html>

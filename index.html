@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLLUS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluif m-0 p-0 bg-white" id="pagina">
+        <header class="container-fluid m-2 p-2 height-80px" >
+            <nav class="navbar navbar-expand-sm bg-warning py-3">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item "><a href="#"><img src="img/hollus logo 50 50.png" height="100%" alt="Logo Hollus" id="logopequena"></a></li>
+                        <li class="navbar-item"><a href="index.html" class="nav-link text-white">Início</a></li>
+                        <li class="navbar-item"><a href="servicos.html" class="nav-link text-white">Serviços</a></li>
+                        <li class="navbar-item"><a href="SobreHollus.html" class="nav-link text-white">Sobre a HOLLUS</a></li>                       
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><button class="btn btn-outline text-white border-white" data-bs-toggle="modal" data-bs-target="#popUpLogin">Pré-inscrição grátis</button></li>                        
+                    </ul>
+                </div>
+            </nav>
+            <div class="modal" id="popUpLogin">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex justify-content-center">
+                            <h3>Pré-inscrição grátis</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="post">                                
+                                <div class="form-group my-3">
+                                    <label for="name">Nome</label>
+                                    <input type="text" placeholder="Digite seu nome e sobrenome" class="form-control">
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="email">Email</label>
+                                    <input type="email" placeholder="Digite seu email" class="form-control">
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="tel">Telefone</label>
+                                    <input type="number" placeholder="Digite seu telefone com DDD ex.: 61 998765432" class="form-control">
+                                </div>
+                                <div class="form-group my-3">
+                                    <label for="name">Terapia</label>
+                                    <input type="text" placeholder="Ex.: Acupuntura; yoga;..." class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-success">Enviar</button>
+                                <button type="reset" class="btn btn-warning">Resetar</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="slides" class="container-fluid text-warning display-1 d-flex justify-content-center text-upercase "><dt>HOLLUS</dt>
+            <dd>Conectando pessoas</dd></div>
+            <div class="spacesection" class="bg-white height: 45px"></div>
+            <div class="carousel slide my-3" id="demo" data-bs-ride="carousel">
+                <!-- INDICADORES -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <!-- SLIDER -->
+                <div class="carousel-inner" style="height: 750px; overflow: hidden; d-flex flex-row">
+                    <div class="carousel-item active">
+                        <img src="img/hollus (1).jpg" alt="Corpo" class="d-block" style="width: 50%; border-radius: 40%; float: right;">
+                        <div class="categorias">
+                            <button class="botao">
+                                <h3 class="slides">Corpo</h3>
+                            </button>                            
+                            <p class="lead">Terapias corporais são abordagens terapêuticas que visam o bem-estar físico e emocional por meio da manipulação do corpo. Essas terapias incluem técnicas como massagem, quiropraxia e fisioterapia, que são utilizadas para aliviar dores musculares, melhorar a circulação sanguínea e promover relaxamento. Ao focar nas necessidades do corpo, essas terapias buscam restaurar o equilíbrio e a saúde física, resultando em uma sensação de renovação e vitalidade.</p>                    
+                        </div>
+                        <div class="caixa">
+                            <p>Massagem sueca; Acupuntura; Quiropraxia; Reflexologia; Massagem tailandesa; Shiatsu; Terapia craniossacral; Massagem desportiva; Terapia miofascial; Reiki; Massagem aromaterapêutica; Terapia de liberação emocional; Massagem terapêutica; Auriculoterapia; Tui na; Terapia de polaridade; Massagem ayurvédica; Terapia de Bowen; Rolfing; Terapia de movimento craniano.</p>    
+                        </div>
+                    </div>                    
+                    <div class="carousel-item">
+                        <img src="img/hollus (4).jpg" alt="Mente" class="d-block" style="width: 50%; border-radius: 40%; float: right;">
+                        <div class="categorias">
+                            <button class="botao">
+                                <h3 class="slides">Mente</h3>
+                            </button>                            
+                            <p class="lead">Terapias para a mente são abordagens psicológicas e emocionais destinadas a promover a saúde mental e o bem-estar emocional. Incluem terapias tradicionais, como a terapia cognitivo-comportamental e a psicoterapia, que ajudam os indivíduos a compreender seus pensamentos, emoções e comportamentos. O foco dessas terapias é proporcionar ferramentas e estratégias para lidar com desafios, traumas, ansiedade e outros problemas emocionais, visando a autoconsciência e o crescimento pessoal.</p>                            
+                        </div>
+                        <div class="caixa">
+                            <p>Psicoterapia cognitivo-comportamental; Psicanálise; Terapia de grupo; Terapia familiar; Terapia de aceitação e compromisso (ACT); Terapia cognitiva; Terapia comportamental dialética (DBT); Terapia gestalt; Terapia interpessoal; Terapia de exposição; Terapia de relaxamento; Terapia de biofeedback; Hipnoterapia; Terapia de esquema; Terapia de constelação familiar; Terapia de regressão; Terapia de arte; Terapia de musicoterapia; Terapia de dança; Terapia de jogo; Terapia de meditação; Terapia de mindfulness.</p>    
+                        </div>
+                    </div>                    
+                    <div class="carousel-item">
+                        <img src="img/hollus (3).jpg" alt="Esoterismo" class="d-block" style="width: 50%; border-radius: 40%; float: right;">
+                        <div class="categorias">
+                            <button class="botao">
+                                <h3 class="slides">Esoterismo</h3>
+                            </button>                            
+                            <p class="lead" >Terapias esotéricas são práticas que exploram dimensões espirituais e energéticas, muitas vezes fora do escopo da ciência convencional. Isso inclui abordagens como a cura energética, leitura de tarô, astrologia e reiki. Essas terapias se baseiam em crenças de que existe uma conexão entre o corpo, a mente e o espírito, e que equilibrar as energias ou acessar informações esotéricas pode trazer cura e insights. Elas são procuradas por pessoas em busca de uma compreensão mais profunda de si mesmas e do universo que as cerca.</p>
+                        </div>
+                        <div class="caixa">
+                            <p>Astrologia; Quiromancia (leitura das mãos); Tarot; Numerologia; Cristaloterapia; Reiki; Yoga; Meditação transcendental; Quiropraxia energética; Terapia com cristais; Terapia de cores; Leitura de aura; Feng Shui; Radiestesia; I Ching; Cura prânica; Quirologia; Terapia floral; Terapia de vidas passadas; Terapia de som; Magia branca; Magia do caos; Alquimia espiritual; Terapia de canalização.</p>    
+                        </div>
+                    </div>                    
+                </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+    <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+    </html>

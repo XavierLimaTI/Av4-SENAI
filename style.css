@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+font-family: 'Cinzel Decorative', cursive;
+
+/* Estilos para telas grandes (desktop) */
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+
+    }
+  
+    header {
+
+      padding: 20px;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav li {
+      margin-right: 20px;
+    }
+  }
+  
+  /* Estilos para telas pequenas (celular) */
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+
+    }
+  
+    header {
+
+      padding: 10px;
+    }
+  
+    nav {
+      display: block;
+      text-align: center;
+    }
+  
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav li {
+      margin-bottom: 10px;
+    }
+  }
+  
+
+*{
+    margin: 0px;
+    padding: 1px;
+}
+
+#logopequena{
+    border-radius: 50%;
+}
+
+.carousel-indicators{    
+    background-color: rgba(248, 211, 0, 0.315);
+    border-radius: 60%;
+    
+}
+
+#pagina{
+    background-image: url(img/hollus\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto; min-height: 1200px ;
+}
+
+.spacesection{
+    width: 100%;
+    height: 45px;
+}
+
+dt{
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+dd{
+    font-size: 40px;
+}
+
+.slides{
+    text-align: center;
+    color: rgba(223, 163, 0, 0.884);
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#sobrehollus{
+color: white;
+font-family: 'Cinzel Decorative', cursive;
+text-align: center;
+font-size: 80px;
+
+}
+#pitchhollus{
+    width: 40%;
+    height: 750px;
+    font-size: large;
+
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
